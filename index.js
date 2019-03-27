@@ -2,9 +2,9 @@
 let promise = new Promise((resolve,reject)=>{
   let a = 1+3;
   if (a == 2){
-    resolve('done')
+    resolve('from resolve')
   }else{
-    reject('failed')
+    reject('from reject')
   }
 });
 
